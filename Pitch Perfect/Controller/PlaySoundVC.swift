@@ -11,7 +11,7 @@ import AVFoundation
 
 
 class PlaySoundVC: UIViewController {
-    
+    // this are the outlets for the 7 buttons
     @IBOutlet weak var slowButton: UIButton!
     @IBOutlet weak var fastButton: UIButton!
     @IBOutlet weak var highPitchButton: UIButton!
