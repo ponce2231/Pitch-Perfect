@@ -5,7 +5,7 @@
 //  Created by Christopher Ponce Mendez on 5/22/19.
 //  Copyright © 2019 none. All rights reserved.
 //
-
+// this is just some practice for github
 import UIKit
 import AVFoundation
 
@@ -29,7 +29,7 @@ class PlaySoundVC: UIViewController {
     enum ButtonType: Int {
         case slow = 0, fast, highPitch, lowPitch, echo, reverb
     }
-    
+    // all buttons from the Viewcontroller were mapped to this IBAction
     @IBAction func playSoundForButton(_ sender: UIButton){
         switch (ButtonType(rawValue: sender.tag)!) {
         case .slow:
