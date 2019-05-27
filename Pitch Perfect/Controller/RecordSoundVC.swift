@@ -74,7 +74,7 @@ class RecordSoundVC: UIViewController, AVAudioRecorderDelegate {
             playSoundsVC.recordedAudioURL = recordedAudioURL
         }
     }
-    
+    //this enables/disables the record and stop buttons
     func settingupUI(state:Bool) {
         if state == true{
             recordingLabel.text = "Recording in Progress"
